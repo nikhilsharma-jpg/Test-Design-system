@@ -1,0 +1,24 @@
+.field { display: flex; flex-direction: column; width: 378px; max-width: 100%; }
+.label { padding-bottom: var(--space-8); color: var(--text-primary); font-weight: 300; }
+.input {
+  width: 100%;
+  background: var(--background-invert);
+  border: 1px solid var(--border-tertiary);
+  border-radius: 0;
+  padding: 0 17px;
+  font-family: var(--font-family-base);
+  font-weight: 300;
+  color: var(--text-primary);
+}
+.input::placeholder { color: var(--text-secondary); opacity: 1; }
+.input:focus { outline: none; border: 1.5px solid var(--color-red-brand); padding: 0 16.5px; }
+.input[aria-invalid="true"] { border: 1.5px solid var(--text-action); padding: 0 16.5px; }
+.input:disabled { opacity: 0.6; cursor: not-allowed; }
+.error { margin: 0; padding: 2px 2px 0; color: var(--color-red-dark); font-size: 12px; line-height: 18px; font-weight: 300; }
+
+.small .label { font-size: 12px; line-height: 18px; }
+.small .input { height: 40px; font-size: 12px; line-height: 18px; }
+.medium .label { font-size: 16px; line-height: 26px; }
+.medium .input { height: 56px; font-size: 16px; line-height: 26px; }
+.large .label { font-size: 18px; line-height: 30px; }
+.large .input { height: 68px; font-size: 18px; line-height: 30px; }

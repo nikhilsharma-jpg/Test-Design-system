@@ -1,0 +1,22 @@
+.list { display: flex; align-items: flex-start; gap: var(--space-16); }
+.tab {
+  background: none; border: 0; border-bottom: 0 solid transparent; cursor: pointer;
+  font-family: var(--font-family-base); font-weight: 300; line-height: 38px; white-space: nowrap;
+  color: var(--color-gray-deep);
+}
+.tab:focus-visible { outline: 2px solid var(--color-red-brand); outline-offset: 2px; }
+.tab:disabled { opacity: 0.3; cursor: not-allowed; }
+.tab:not(:disabled):not(.selected):hover { color: var(--color-gray-medium); border-bottom-color: var(--color-gray-light); }
+
+/* Sizes from Figma: SM 18px, MD 28px, LG 36px. Underline widths follow the Figma variants. */
+.sm { font-size: 18px; padding: 0 0 10px; }
+.sm:not(:disabled):not(.selected):hover { border-bottom-width: 1.5px; }
+.sm.selected { padding: 0 10px 10px; border-bottom: 1.5px solid var(--border-primary); }
+
+.md { font-size: 28px; padding: 0 0 16px; }
+.md:not(:disabled):not(.selected):hover { border-bottom-width: 2px; }
+.md.selected { padding: 0 16px 16px; border-bottom: 1px solid var(--border-primary); }
+
+.lg { font-size: 36px; padding: 0 0 20px; }
+.lg:not(:disabled):not(.selected):hover { border-bottom-width: 2.5px; }
+.lg.selected { padding: 0 20px 20px; border-bottom: 2.5px solid var(--border-primary); }

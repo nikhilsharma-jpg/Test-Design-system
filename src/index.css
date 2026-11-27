@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  color: var(--text-primary);
+  background: var(--background-invert);
+}

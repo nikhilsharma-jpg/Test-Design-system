@@ -1,0 +1,213 @@
+/* Generated from Figma: Style Guides > Text Styles. Font: Lexend. Letter spacing in Figma is a percent value. */
+
+.ib-display-web-large {
+  font-family: var(--font-family-base);
+  font-size: 112px;
+  font-weight: 400;
+  line-height: 116px;
+  letter-spacing: -0.04em;
+}
+
+.ib-display-web-medium {
+  font-family: var(--font-family-base);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: -0.04em;
+}
+
+.ib-display-web-small {
+  font-family: var(--font-family-base);
+  font-size: 72px;
+  font-weight: 250;
+  line-height: 88px;
+  letter-spacing: -0.04em;
+}
+
+.ib-display-mobile-large {
+  font-family: var(--font-family-base);
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 52px;
+  letter-spacing: -0.04em;
+}
+
+.ib-display-mobile-medium {
+  font-family: var(--font-family-base);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+}
+
+.ib-display-mobile-small {
+  font-family: var(--font-family-base);
+  font-size: 32px;
+  font-weight: 250;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+}
+
+.ib-headline-web-large {
+  font-family: var(--font-family-base);
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0em;
+}
+
+.ib-headline-web-medium {
+  font-family: var(--font-family-base);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -0.04em;
+}
+
+.ib-headline-web-small {
+  font-family: var(--font-family-base);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+
+.ib-headline-mobile-large {
+  font-family: var(--font-family-base);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: 0em;
+}
+
+.ib-headline-mobile-medium {
+  font-family: var(--font-family-base);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.04em;
+}
+
+.ib-headline-mobile-small {
+  font-family: var(--font-family-base);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.ib-title-large {
+  font-family: var(--font-family-base);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.ib-title-medium {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.ib-title-small {
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.ib-title-extra-small {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.15em;
+}
+
+.ib-label-large {
+  font-family: var(--font-family-base);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.ib-label-medium {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.ib-label-small {
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.ib-label-extra-small {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ib-body-extra-large {
+  font-family: var(--font-family-base);
+  font-size: 24px;
+  font-weight: 250;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+
+.ib-body-large {
+  font-family: var(--font-family-base);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+
+.ib-body-medium {
+  font-family: var(--font-family-base);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.ib-body-small {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.ib-caption-large {
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.ib-caption-medium {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+}

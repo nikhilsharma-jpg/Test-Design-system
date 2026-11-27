@@ -1,0 +1,60 @@
+/* Chamfered bottom-right corner. NOTE: 12px is an estimate; confirm against Figma. */
+.button {
+  --cut: 12px;
+  --bg: var(--color-red-brand);
+  --fg: var(--color-gray-white);
+  --border: transparent;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  min-width: 174px;
+  padding: 0 var(--space-24);
+  border: 0;
+  background: none;
+  color: var(--fg);
+  cursor: pointer;
+  white-space: nowrap;
+  isolation: isolate;
+  font-family: var(--font-family-base);
+}
+/* Shape layers (clip-path on pseudo elements so drop-shadow on the button is not clipped) */
+.button::before,
+.button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%);
+}
+.button::before { inset: 0; background: var(--border); }
+.button::after { inset: 0; background: var(--bg); }
+.button:not(:disabled):hover { filter: drop-shadow(var(--shadow-pink)); }
+.button:focus-visible { outline: 2px solid var(--color-red-brand); outline-offset: 4px; }
+
+.inner { display: inline-flex; align-items: center; gap: var(--space-24); }
+.label { display: inline-block; }
+
+/* Primary */
+.primary:not(:disabled):active { --bg: var(--color-red-dark); }
+.primary:disabled { --bg: var(--color-gray-light); cursor: not-allowed; }
+
+/* Primary light */
+.primary-light { --bg: var(--color-cream-mist); --fg: var(--text-secondary); }
+.primary-light:not(:disabled):active { --bg: var(--color-cream-light); }
+.primary-light:disabled { --bg: var(--color-gray-light); --fg: var(--color-gray-white); cursor: not-allowed; }
+
+/* Secondary: 1px outline that follows the chamfer */
+.secondary { --border: var(--color-red-brand); --bg: var(--background-invert); --fg: var(--color-red-brand); }
+.secondary::after { inset: 1px; clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--cut) + 1px), calc(100% - var(--cut) + 1px) 100%, 0 100%); }
+.secondary:not(:disabled):active { --border: var(--color-red-dark); --fg: var(--color-red-dark); }
+.secondary:disabled { --border: var(--color-gray-light); --fg: var(--color-gray-light); cursor: not-allowed; }
+
+/* Tertiary: underlined text */
+.tertiary { --bg: transparent; --fg: var(--color-red-brand); text-decoration: underline; text-underline-position: from-font; }
+.tertiary:not(:disabled):hover { --bg: var(--color-gray-white); filter: none; }
+.tertiary:not(:disabled):active { --fg: var(--color-red-dark); }
+.tertiary:disabled { --fg: var(--color-gray-light); cursor: not-allowed; }
+.tertiary .inner { gap: var(--space-24); }
+
+.iconOnly { width: 48px; min-width: 48px; padding: 0; }

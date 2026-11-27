@@ -1,0 +1,85 @@
+/* Generated from Figma: Style Guides > Primitive / Tokens / Spacing. Edit values here. */
+:root {
+  --font-family-base: "Lexend Variable", "Lexend", system-ui, sans-serif;
+
+  /* Primitive colors */
+  --color-red-peach: #ffd0d8;
+  --color-red-desire: #eb4c5e;
+  --color-red-brand: #ea1b3d;
+  --color-red-dark: #aa142d;
+  --color-red-deep: #7c2235;
+  --color-cream-mist: #fff9ed;
+  --color-cream-light: #ffefd1;
+  --color-cream-base: #ecb547;
+  --color-cream-dark: #bf8208;
+  --color-cream-deep: #8c681f;
+  --color-green-mist: #edfff5;
+  --color-green-light: #abf5ce;
+  --color-green-base: #0fa958;
+  --color-green-dark: #0d8244;
+  --color-gray-mist: #e6e6ed;
+  --color-gray-medium: #676775;
+  --color-gray-charcoal: #373742;
+  --color-gray-dark: #2f2f39;
+  --color-gray-deep: #000000;
+
+  /* Extra primitives referenced by components in Figma */
+  --color-gray-light: #a7a7b0;
+  --color-gray-white: #ffffff;
+  --shadow-pink: 4px 4px 0 #ffd0d8; /* Figma: Shadows/Pink Shadow */
+
+  /* Semantic tokens */
+  --text-primary: #373742;
+  --text-secondary: #676775;
+  --text-disabled: #a7a7b0;
+  --text-invert: #ffffff;
+  --text-action: #ea1b3d;
+  --text-action-disabled: #ffd0d8;
+  --text-success: #0d8244;
+  --text-error: #ea1b3d;
+  --text-warning: #bf8208;
+  --icons-primary: #373742;
+  --icons-secondary: #676775;
+  --icons-disabled: #a7a7b0;
+  --icons-action: #ea1b3d;
+  --icons-action-disabled: #ffd0d8;
+  --icons-success: #0d8244;
+  --icons-error: #ea1b3d;
+  --icons-warning: #bf8208;
+  --fills-primary: #373742;
+  --fills-secondary: #676775;
+  --fills-disabled: #a7a7b0;
+  --fills-invert: #ffffff;
+  --fills-brand: #ea1b3d;
+  --fills-brand-light: #ffd0d8;
+  --fills-success: #0d8244;
+  --fills-error: #ea1b3d;
+  --fills-warning: #bf8208;
+  --border-primary: #676775;
+  --border-secondary: #a7a7b0;
+  --border-tertiary: #e6e6ed;
+  --background-primary: #fff9ed;
+  --background-secondary: #ffefd1;
+  --background-tertiary: #e6e6ed;
+  --background-invert: #ffffff;
+  --background-success: #edfff5;
+  --background-error: #ffd0d8;
+  --background-warning: #ffefd1;
+
+  /* Spacing (px) */
+  --space-0: 0px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-112: 112px;
+}
