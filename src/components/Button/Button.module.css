@@ -1,7 +1,7 @@
 /* Chamfered bottom-right corner. NOTE: 12px is an estimate; confirm against Figma. */
 .button {
   --cut: 12px;
-  --bg: var(--color-red-brand);
+  --bg: var(--fills-secondary);
   --fg: var(--color-gray-white);
   --border: transparent;
   position: relative;
@@ -36,7 +36,7 @@
 .label { display: inline-block; }
 
 /* Primary */
-.primary:not(:disabled):active { --bg: var(--color-red-dark); }
+.primary:not(:disabled):active { --bg: var(--fills-primary); }
 .primary:disabled { --bg: var(--color-gray-light); cursor: not-allowed; }
 
 /* Primary light */
